@@ -1,0 +1,14 @@
+@media (max-width: 768px) {
+    .ad {
+        display: none;
+    }
+}
+
+@media (max-width: 576px) {
+    .box-input {
+        margin-top: 3px;
+    }
+    .title-header {
+        padding: 10px 0px 10px 0px;
+    }
+}

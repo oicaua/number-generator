@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap, bootstrap icons and font: -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="src/css/style.css">
+    <title>Gerador de números</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="title-header">Gerador de números</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2 ad">
+                <!-- Area for Google ADS -->
+            </div>
+            <div class="col-md-8 col-sm-12">
+                <form id="theForm" action="" class="formClass">
+                    <div class="operation">
+                        <p>Sortear
+                            <input type="number" id="quant" name="quant" class="box-input">
+                            números entre
+                            <input type="number" id="nmin" name="nmin" class="box-input">
+                            e
+                            <input type="number" id="nmax" name="nmax" class="box-input">
+                        </p>
+                    </div>
+                    <div class="operation-repeat">
+                        <p>Números repetidos?
+                            <button type="button" class="btn btn-secondary confirmRepeat" name="repeat" id="repeat"
+                                value="false" onclick="valueOfRepeat()">
+                                <i class="bi bi-check2"></i>
+                            </button>
+                        </p>
+                    </div>
+                    <div class="buttonSendArea">
+                        <button type="submit" class="send-button">
+                            <i class="bi bi-arrow-repeat"></i>
+                            Enviar
+                        </button>
+                    </div>
+                    <div class="result-numbers">
+                        <div id="displayNums">
+                            Seus números aparecerão aqui!
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-2 col-sm-12">
+                <!-- Area for Google ADS -->
+            </div>
+        </div>
+        <div class="row">
+            <div class="col footerClass">
+                <p>Feito com <i class="bi bi-heart-fill" style="color: red;"></i> por Cauã</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col socialArea">
+                <a href="http://instagram.com/oicaua" target="_blank">
+                    <i class="bi bi-instagram insta-icon"></i>
+                </a>
+                <a href="https://github.com/oicaua" target="_blank">
+                    <i class="bi bi-github github-icon"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script src="src/script/numgenerator.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+/* --- Main CSS file --- */
+@import url(footer.css);
+@import url(header.css);
+@import url(mainContent.css);
+@import url(mediaMobile.css);
+
+* {
+    font-family: 'Open Sans', 'Arial';
+    font-size: 17px;
+    font-weight: bold;
+}

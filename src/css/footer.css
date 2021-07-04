@@ -1,0 +1,37 @@
+.footerClass {
+    height: 100px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: solid lightgrey 1px;
+    background-color: #FAEFE3;
+}
+
+.socialArea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid lightgrey 1px;
+    /* background-color: #FAEFE3; */
+    height: 100px;
+}
+
+.socialIcons {
+    text-decoration: none;
+    color: black;
+}
+
+.insta-icon {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    margin-right: 50px;
+}
+
+.github-icon {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    margin-left: 50px;
+}
